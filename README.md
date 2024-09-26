@@ -11,6 +11,7 @@
 
 ### 빌드하기
 - 빌드는 dev 모드로 하고 추후 엘라스틱빈스톡에서 실행은 prod 모드로 실행
+- application-prod-yml 파일 facebook client-id, client-secret을 본인걸로 변경
 - ./mvnw clean package -Dspring.profiles.active=dev
 
 ### 실행테스트
